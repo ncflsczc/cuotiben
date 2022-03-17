@@ -687,7 +687,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fqU-DM-nwT">
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">        首先，感谢主办方主办江西省学生信息素养提升实践活动，让我有机会参与其中。其次，感谢学校信息技术陈老师给予我多方面的指导，让我的APP得以完成。这款APP主要功能是用于错题手机，并可随时观看。1.首页：展示轮播图（无数据是展示默认图）和饼图（无数据不显示；语音助手需输入相关口令，如：总错题数、看、语文（或其他科目）、添加笔记等关键字；添加笔记按钮跳转添加笔记。2.添加笔记页：点击题目需等待调用相机通过拍照或相册上传题目；弹出键盘可以点击任意空白处退出。3.笔记页：左上角更多可选择排序方式；右上角跳转添加笔记；单击图片跳转修改页面，长按图片放大查看图片。4.我的页面：查看公告；清除所有数据缓存；开关语音助手，默认开启。</mutableString>
+                                <string key="text">        首先，感谢主办方主办江西省学生信息素养提升实践活动，让我有机会参与其中。其次，感谢学校信息技术陈老师给予我多方面的指导，让我的APP得以完成。这款APP主要功能是用于错题手机，并可随时观看。1.首页：展示轮播图（无数据是展示默认图）和饼图（无数据不显示；语音助手需输入相关口令，如：总错题数、看、语文（或其他科目）、添加笔记等关键字；添加笔记按钮跳转添加笔记。2.添加笔记页：点击题目需等待调用相机通过拍照或相册上传题目；弹出键盘可以点击任意空白处退出。3.笔记页：左上角更多可选择排序方式；右上角跳转添加笔记；单击图片跳转修改页面，长按图片放大查看图片。4.我的页面：查看公告；清除所有数据缓存；开关语音助手，默认开启。</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1110,32 +1110,23 @@
                                     <constraint firstAttribute="height" constant="50" id="HdQ-eg-MPs"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xMZ-je-W2W">
-                                <rect key="frame" x="0.0" y="138" width="414" height="724"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tSi-f1-fuc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="xMZ-je-W2W" firstAttribute="leading" secondItem="tSi-f1-fuc" secondAttribute="leading" id="CAE-at-GAw"/>
                             <constraint firstItem="tSi-f1-fuc" firstAttribute="trailing" secondItem="RF9-YZ-aGh" secondAttribute="trailing" id="Mys-3S-Yy9"/>
-                            <constraint firstItem="tSi-f1-fuc" firstAttribute="bottom" secondItem="xMZ-je-W2W" secondAttribute="bottom" id="S8d-b3-Rut"/>
-                            <constraint firstItem="tSi-f1-fuc" firstAttribute="trailing" secondItem="xMZ-je-W2W" secondAttribute="trailing" id="WOp-wx-fgi"/>
-                            <constraint firstItem="xMZ-je-W2W" firstAttribute="top" secondItem="RF9-YZ-aGh" secondAttribute="bottom" id="Wxf-qR-jTe"/>
                             <constraint firstItem="RF9-YZ-aGh" firstAttribute="leading" secondItem="tSi-f1-fuc" secondAttribute="leading" id="gws-Pr-Nsa"/>
                             <constraint firstItem="RF9-YZ-aGh" firstAttribute="top" secondItem="tSi-f1-fuc" secondAttribute="top" id="zAr-7U-Tv2"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="文档" id="vPB-al-7uQ"/>
                     <connections>
-                        <outlet property="midview" destination="xMZ-je-W2W" id="sNe-gf-QIH"/>
                         <outlet property="topview" destination="RF9-YZ-aGh" id="1pE-BO-DZh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M40-bO-yi2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="845" y="1085"/>
+            <point key="canvasLocation" x="844.92753623188412" y="1083.4821428571429"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

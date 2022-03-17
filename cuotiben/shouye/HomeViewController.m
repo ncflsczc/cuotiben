@@ -81,6 +81,7 @@
 }
 -(void)viewWillAppear:(BOOL)animated{
 //    [self containtChinese:@"总错题数"];
+    
     [super viewWillAppear:animated];
     [self GetData];
     if (chartView) {
@@ -233,27 +234,48 @@
     for (int i=0; i<arr.count; i++) {
         float tA = (float)totalarr.count;
         float curA = (float)[self GetData:arr[i]].count;
+        __block BOOL isRead = NO;
         if ([self GetData:arr[i]].count) {
+            
+            isRead = YES;
             [[self GetData:arr[i]]enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
                 Timu *timu = (Timu*)[self GetData:arr[i]][idx];
                 if ([timu.Kemu isEqualToString:@"语文"]) {
-                    [cuA addObject:[SCPieChartDataItem dataItemWithValue:curA/tA*100 color:SCRed description:timu.Kemu]];
+                    if(isRead)
+                        [cuA addObject:[SCPieChartDataItem dataItemWithValue:curA/tA*100 color:SCRed description:timu.Kemu]];
+                    isRead = NO;
                 }else if ([timu.Kemu isEqualToString:@"数学"]) {
+                    if(isRead)
                     [cuA addObject:[SCPieChartDataItem dataItemWithValue:curA/tA*100 color:SCGreen description:timu.Kemu]];
+                    isRead = NO;
                 }else if ([timu.Kemu isEqualToString:@"英语"]) {
+                    if(isRead)
                     [cuA addObject:[SCPieChartDataItem dataItemWithValue:curA/tA*100 color:SCBlue description:timu.Kemu]];
+                    isRead = NO;
                 }else if ([timu.Kemu isEqualToString:@"物理"]) {
+                    if(isRead)
                     [cuA addObject:[SCPieChartDataItem dataItemWithValue:curA/tA*100 color:SCYellow description:timu.Kemu]];
+                    isRead = NO;
                 }else if ([timu.Kemu isEqualToString:@"化学"]) {
+                    if(isRead)
                     [cuA addObject:[SCPieChartDataItem dataItemWithValue:curA/tA*100 color:SCPinkGrey description:timu.Kemu]];
+                    isRead = NO;
                 }else if ([timu.Kemu isEqualToString:@"生物"]) {
+                    if(isRead)
                     [cuA addObject:[SCPieChartDataItem dataItemWithValue:curA/tA*100 color:SCFreshGreen description:timu.Kemu]];
+                    isRead = NO;
                 }else if ([timu.Kemu isEqualToString:@"历史"]) {
+                    if(isRead)
                     [cuA addObject:[SCPieChartDataItem dataItemWithValue:curA/tA*100 color:SCMauve description:timu.Kemu]];
+                    isRead = NO;
                 }else if ([timu.Kemu isEqualToString:@"政治"]) {
+                    if(isRead)
                     [cuA addObject:[SCPieChartDataItem dataItemWithValue:curA/tA*100 color:SCBrown description:timu.Kemu]];
+                    isRead = NO;
                 }else if ([timu.Kemu isEqualToString:@"地理"]) {
+                    if(isRead)
                     [cuA addObject:[SCPieChartDataItem dataItemWithValue:curA/tA*100 color:SCDarkBlue description:timu.Kemu]];
+                    isRead = NO;
                 }
             }];
         }

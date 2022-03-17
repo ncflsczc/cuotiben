@@ -414,8 +414,8 @@
             filePath = "cuotiben/shouye/HomeViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "321"
-            endingLineNumber = "321"
+            startingLineNumber = "343"
+            endingLineNumber = "343"
             landmarkName = "-flowView:cellForPageAtIndex:"
             landmarkType = "7">
          </BreakpointContent>
@@ -462,8 +462,8 @@
             filePath = "cuotiben/shouye/HomeViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "237"
-            endingLineNumber = "237"
+            startingLineNumber = "241"
+            endingLineNumber = "241"
             landmarkName = "-setupchartview"
             landmarkType = "7">
          </BreakpointContent>
@@ -478,8 +478,8 @@
             filePath = "cuotiben/shouye/HomeViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
             landmarkName = "-viewWillAppear:"
             landmarkType = "7">
          </BreakpointContent>
@@ -494,8 +494,8 @@
             filePath = "cuotiben/shouye/HomeViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "-viewWillAppear:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1086,8 +1086,8 @@
             filePath = "cuotiben/shouye/HomeViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "105"
-            endingLineNumber = "105"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
             landmarkName = "-viewWillAppear:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1102,8 +1102,8 @@
             filePath = "cuotiben/shouye/HomeViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
             landmarkName = "-viewWillAppear:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1118,8 +1118,8 @@
             filePath = "cuotiben/shouye/HomeViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
             landmarkName = "-viewWillAppear:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1134,8 +1134,8 @@
             filePath = "cuotiben/shouye/HomeViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
             landmarkName = "-viewWillAppear:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1201,6 +1201,38 @@
             startingLineNumber = "104"
             endingLineNumber = "104"
             landmarkName = "-reloadData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17E64830-DE10-40DE-B953-7F209A324370"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cuotiben/shouye/HomeViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "242"
+            endingLineNumber = "242"
+            landmarkName = "-setupchartview"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29AC2708-0BB7-4010-95E9-A3B12BEA66D7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cuotiben/SceneDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "-scene:openURLContexts:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
